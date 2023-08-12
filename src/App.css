@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+.title {
+  border: 1px solid grey;
+  box-shadow: 5px 10px #888888;
+  width: 100%;
+  height: fit-content;
+  padding: 10px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.head_content{
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 10px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.name_section {
+  bottom: 30%;
+  font-size: larger;
+  position: relative;
+}
+.name_section > h1{
+  font-size: 1rem;
+}
+.name_section > h1 > span {
+  opacity: 0.5;
+  font-weight: bold;
+}
+.dots {
+  font-size: 2rem;
+}
+.card {
+  border: 1px solid black;
+  width: 40%;
+  border-radius: 0.4rem;
+  margin-bottom: 10px;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.card > .card_title {
+  height: 8vh;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: space-between;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card_image {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
 }
+.icons_section {
+  padding: 0px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: fit-content;
+  height: auto;
+}
+.icons_section > p {
+  opacity: 0.5;
+  bottom: 0.5rem;
+  position: relative;
+  font-weight: bold;
+}
+.caption{
+  padding: 0px 2rem;
+  bottom: 3rem;
+  text-align: left;
+  position: relative;
+}
+#likes {
+  opacity: 0.8;
+  left: 1.5rem;
+  bottom: 1rem;
+  position: relative;
+}
+.Click_button{
+  height: 40px;  
+  width: 150px;
+  border-radius: 20px;
+  padding: 2px;
+  right: 0.8rem;
+  top:2rem;
+  background-color: #fff;
+  position: relative;
+ }
