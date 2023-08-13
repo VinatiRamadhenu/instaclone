@@ -1,8 +1,7 @@
 import React from "react";
-import icon from "./images/instaimg2/icon.svg";
-import Camera from "./images/instaimg2/camera@2x.png";
-import "./styles/Topnav.css";
-import { Link } from "react-router-dom";
+import icon from "../Images/instaimg2/icon/icon.png";
+import camera from "../Images/instaimg2/camera.png";
+import { Link}  from "react-router-dom";
 
 function Topnav() {
   return (
@@ -16,7 +15,7 @@ function Topnav() {
         </div>
         <div className="right">
           <Link to="/newposts">
-            <img src={Camera} alt="" />
+            <img src={camera} alt="" />
           </Link>
         </div>
       </nav>

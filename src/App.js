@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import Landing from "./Components/Landing"
-import Postview from "./Components/Postview";
-import Newposts from "./Components/Newposts";
+import Landing from "../src/Components/Landing"
+import Postview from "../src/Components/Postview";
+import Newposts from "../src/Components/Newposts";
 
 function App() {
   return (

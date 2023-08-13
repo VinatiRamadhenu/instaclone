@@ -1,5 +1,6 @@
+
 import React, { useState, useRef } from "react";
-import "./styles/Newpost.css";
+import "../Styles/Newposts.css";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 function Newposts() {

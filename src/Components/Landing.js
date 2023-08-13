@@ -1,7 +1,7 @@
 import React from "react";
-import "./styles/Landing.css"
+import "../Styles/Landing.css"
 import { useNavigate } from "react-router-dom"
-import landing_image from "./images/instaimg1.png"
+import landingimage1 from "../Images/Instaimg1/landingimage1.png"
 
 function Landing() {
   let Navigate=useNavigate()
@@ -9,7 +9,7 @@ function Landing() {
     <div>
       <div className="container">
         <section className="left">
-            <img src={landing_image} alt="" />
+            <img src={landingimage1} alt="" />
         </section>
         <section className="right">
             <h3>10X Team 04</h3>

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import './styles/Post.css'
-import heart from "./images/instaimg2/heart.png";
-import share from "./images/instaimg2/share.png";
-import more_icon from "./images/instaimg2/more_icon.svg";
+import "../Styles/Postview.css"
+import heart from "../Images/instaimg2/heart.png";
+import share from "../Images/instaimg2/share.png";
+import iconn from "../Images/instaimg2/icon/iconn.png";
 import Topnav from "./Topnav";
 
 const Postview = () => {
@@ -32,7 +32,7 @@ const Postview = () => {
               <h3 id="city">{post.location}</h3>
             </div>
             <div className="right">
-              <img src={more_icon} alt="" />
+              <img src={iconn} alt="" />
             </div>
           </div>
           <div className="middle">
